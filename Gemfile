@@ -38,6 +38,7 @@ gem 'faker', :git => 'git://github.com/stympy/faker.git', :branch => 'master'
 gem 'fog'
 gem 'figaro'
 gem 'aws-sdk', '~> 2.3'
+gem "mini_magick"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
